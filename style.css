@@ -23,12 +23,32 @@ a {
 ul {
     display: flex;
     list-style-type: none;
-    gap: 10px;
+    gap: 20px;
     margin-left: auto;
 }
 
 .hero {
     background-color: #1F2937;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 300px;
+    padding-right: 300px;
 }
+
+.signup {
+    padding-top: 150px;
+    padding-bottom: 150px;
+    display: flex;
+    gap: 50px;
+}
+
+.main {
+    font-size: 48px;
+    color: #F9FAF8;
+    weight: 900;
+}
+
+.secondary {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+
