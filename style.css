@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 body {
     font-family: "Roboto";
     margin: 0;
@@ -10,8 +12,9 @@ body {
 
 .logo {
     color: #F9FAF8;
-    weight: 900;
-    font-size: 48px;
+    font-weight: 900;
+    font-size: 24px;
+    weight: bold;
 }
 
 a {
@@ -29,13 +32,13 @@ ul {
 
 .hero {
     background-color: #1F2937;
-    padding-left: 300px;
-    padding-right: 300px;
+    padding-left: 250px;
+    padding-right: 250px;
 }
 
 .signup {
-    padding-top: 150px;
-    padding-bottom: 150px;
+    padding-top: 80px;
+    padding-bottom: 80px;
     display: flex;
     gap: 50px;
 }
@@ -43,7 +46,7 @@ ul {
 .main {
     font-size: 48px;
     color: #F9FAF8;
-    weight: 900;
+    font-weight: 900;
 }
 
 .secondary {
@@ -51,4 +54,25 @@ ul {
     color: #E5E7EB;
 }
 
+.hero-image {
+    background-color: grey;
+    width: 450px;
+    margin-left: auto;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    color: white;
+}
 
+.top {
+    margin-top: 20px;
+    color: white;
+    background-color: #3882F6;
+    padding: 8px 16px;
+    border-radius: 8px;
+    border: 1px solid #3882F6;
+    width: 120px;
+    font-weight: bold;
+    font-size: 16px;
+}
