@@ -1,2 +1,10 @@
 # landing-page
-Repe holding the landing page project for The Odin Project Foundations course
+
+## About:
+Landing page project for The Odin Project Foundations course
+
+## Demonstrated Skills:
+- Flexbox
+
+- CSS properties
+
