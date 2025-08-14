@@ -3,6 +3,9 @@
 body {
     font-family: "Roboto";
     margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 .header {
@@ -34,6 +37,7 @@ ul {
     background-color: #1F2937;
     padding-left: 250px;
     padding-right: 250px;
+    flex: 1;
 }
 
 .signup {
@@ -83,6 +87,7 @@ ul {
     font-size: 36px;
     color: #1F2937;
     font-weight: 900;
+    flex: 1;
 }
 
 .boxes {
@@ -90,6 +95,7 @@ ul {
     justify-content: center;
     gap: 50px;
     margin-bottom: 100px;
+    flex: 1;
 }
 
 .box {
@@ -111,6 +117,7 @@ ul {
 
 .quote {
     background-color: #E5E7EB;
+    flex: 1;
 }
 
 .content {
@@ -138,6 +145,7 @@ ul {
     background-color: #3882F6;
     border-radius: 10px;
     padding: 50px 100px;
+    flex: 1;
 }
 
 .adtext {
@@ -164,4 +172,13 @@ ul {
     width: 120px;
     font-weight: bold;
     font-size: 16px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
