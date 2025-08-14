@@ -108,3 +108,27 @@ ul {
 .subtext {
     text-align: center;
 }
+
+.quote {
+    background-color: #E5E7EB;
+}
+
+.content {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    color: #1F2937;
+}
+
+.author {
+    text-align: right;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.stuff {
+    margin-left: 320px;
+    margin-right: 320px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
